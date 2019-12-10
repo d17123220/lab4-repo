@@ -3,12 +3,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    str = "<h1>About me</h1> Hello, my name is Kseniia Klimenko.<br>I'm studying 3rd year Computer Science in TU Dublin.<br>"
-	return str
+	return "<h1>About me</h1> Hello, my name is Kseniia Klimenko.<br>I'm studying 3rd year Computer Science in TU Dublin.<br>"
 	
 @app.route("/contact-me")
 def contact():
-	return 'Contact me <a href="mailto:d17123220@example.com">by email</a>'
+	return "Contact me <a href=\"mailto:d17123220@example.com\">by email</a>"
 	
 
 if __name__ == "__main__":
