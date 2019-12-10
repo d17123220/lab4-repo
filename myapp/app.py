@@ -7,7 +7,7 @@ def hello():
 	return str
 	
 @app.route("/contact-me")
-def hello():
+def contact():
 	return 'Contact me <a href="mailto:d17123220@example.com">by email</a>'
 	
 
